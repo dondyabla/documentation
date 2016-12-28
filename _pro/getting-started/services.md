@@ -186,8 +186,8 @@ The following features available in Docker Compose are not available on Codeship
   * `cgroup_parent`
   * `depends_on`
   * `devices`
-  * `group_add`
   * `extends`
+  * `group_add`
   * `ipc`
   * `isolation`
   * `labels`
@@ -195,11 +195,11 @@ The following features available in Docker Compose are not available on Codeship
   * `mac_address`
   * `memswap_limit`, `mem_swapiness`
   * `networks`, `network_mode`
+  * `oom_scope_adj`
+  * `pid`
   * `stop_signal`, `stop_grace_period`
   * `tty`
   * `tmpfs`
-  * `oom_scope_adj`
-  * `pid`
   * `ulimits`
   * `volume_driver`
 
